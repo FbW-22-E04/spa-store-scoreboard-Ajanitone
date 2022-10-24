@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 30%;
+  margin: 5rem auto;
+  border: 3px solid rgb(228, 227, 227);
+  border-radius: 10px;
+  padding: 2rem;
+  background: #ceb7b7;
+  background: -moz-linear-gradient(
+    -45deg,
+    #ceb7b7 0%,
+    #72a481 50%,
+    #c5b54e 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ceb7b7 0%,
+    #72a481 50%,
+    #c5b54e 100%
+  );
+  background: linear-gradient(135deg, #ceb7b7 0%, #72a481 50%, #c5b54e 100%);
+  -webkit-box-shadow: -3px 4px 15px -1px #000000;
+  box-shadow: -3px 4px 15px -1px #000000;
+}
+
+h1 {
+  background-color: white;
+  padding: 4px;
+  color: #484747;
+  background: #e8e8e8;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+    1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  color: rgb(3, 9, 9);
+}
+
+h3 {
+  color: gray;
+  margin-top: 24px;
+  background-color: #c0f1f1;
+  padding: 8px;
+}
+
+button {
+  background-color: #c0f1f1;
+  font-weight: bold;
+  font-size: larger;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: white;
+  outline: auto;
+}
+
+button:active {
+  background-color: #40c4c4;
+}
+
+.score {
+  color: #40c4c4;
+}
